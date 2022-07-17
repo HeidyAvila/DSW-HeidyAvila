@@ -13,6 +13,58 @@ h1{
     text-align: center;
 }
 
+ul, ol{
+    list-style: none;
+    display: inline-block;
+}
+
+.Menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Menu>li{
+    float: left;
+}
+
+.Menu li a{
+    background-color: #75886d;
+    color: #232926;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+
+.Menu li a:hover{
+    background-color: wheat;
+}
+
+.Menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.Menu li:hover > ul{
+    display: block;
+}
+
+.Menu li ul li{
+    position: relative;
+}
+
+.Menu li ul li ul{
+    right: 140px;
+}
+
 h2{
     color: rgb(54, 119, 97);
     text-align: center;
