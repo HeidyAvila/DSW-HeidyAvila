@@ -3,13 +3,13 @@ body{
 }
 
 header{
-    background-color:  #76BA99;
+    background-color:  #418866;
     color: rgb(71, 53, 30);
     text-align: center;
 }
 
 h1{
-    color: rgb(45, 97, 80);
+    color: rgb(4, 39, 27);
     text-align: center;
 }
 
@@ -34,8 +34,8 @@ ul, ol{
 }
 
 .Menu li a{
-    background-color: #75886d;
-    color: #232926;
+    background-color: #658856;
+    color: #0d1310;
     text-decoration: none;
     padding: 20px 80px;
     display: block;
@@ -66,16 +66,16 @@ ul, ol{
 }
 
 h2{
-    color: rgb(54, 119, 97);
+    color: rgb(18, 53, 41);
     text-align: center;
 }
 
 h3{
-    color: rgb(56, 161, 126);
+    color: rgb(21, 71, 55);
 }
 
 h4{
-    color: rgb(80, 165, 137);
+    color: rgb(21, 71, 55);
 }
 
 p{
@@ -93,10 +93,15 @@ section{
 
 aside{
     grid-column: 4/5;
+    background-color: #93b486;
 }
 
 footer{
-    background-color: #FFDCAE;
+    background-color: #719663;
     color: rgb(71, 53, 30);
+    text-align: center;
+}
+
+img{
     text-align: center;
 }
