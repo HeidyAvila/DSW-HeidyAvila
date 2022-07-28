@@ -1,0 +1,107 @@
+body{
+    background-color:#ADCF9F;
+}
+
+header{
+    background-color:  #418866;
+    color: rgb(71, 53, 30);
+    text-align: center;
+}
+
+h1{
+    color: rgb(4, 39, 27);
+    text-align: center;
+}
+
+ul, ol{
+    list-style: none;
+    display: inline-block;
+}
+
+.Menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Menu>li{
+    float: left;
+}
+
+.Menu li a{
+    background-color: #658856;
+    color: #0d1310;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+
+.Menu li a:hover{
+    background-color: wheat;
+}
+
+.Menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.Menu li:hover > ul{
+    display: block;
+}
+
+.Menu li ul li{
+    position: relative;
+}
+
+.Menu li ul li ul{
+    right: 140px;
+}
+
+h2{
+    color: rgb(18, 53, 41);
+    text-align: center;
+}
+
+h3{
+    color: rgb(21, 71, 55);
+}
+
+h4{
+    color: rgb(21, 71, 55);
+}
+
+p{
+    color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+section{
+    grid-column: 1/4;
+}
+
+aside{
+    grid-column: 4/5;
+    background-color: #93b486;
+}
+
+footer{
+    background-color: #719663;
+    color: rgb(71, 53, 30);
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
