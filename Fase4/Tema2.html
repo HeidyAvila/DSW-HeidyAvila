@@ -7,39 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema 2</title>
     <link rel="stylesheet" href="CSS/miestilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <h1>Atributos y valores en HTML</h1>
+        <h1>Tema 2: Atributos y Valores en HTML</h1>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
     </header>
-    <nav>
-        <ul class="Menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Temas</a>
-                <ul>
-                    <li><a href="Tema1.html">Tema 1</a></li>
-                    <li><a href="Tema2.html">Tema 2</a></li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Tema1.html">Tema 1</a></li>
+                            <li><a class="dropdown-item" href="Tema2.html">Tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Recurso1.html">Recurso 1</a></li>
+                            <li><a class="dropdown-item" href="Recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Actividad1.html">Actividad 1</a></li>
+                            <li><a class="dropdown-item" href="Actividad2.html">Actividad 2</a></li>
+                        </ul>
+                    </li>
+                    <a class="navbar-brand" href="Autor.html">Autor</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </ul>
-            </li>
-            <li><a href="#">Recursos Digitales</a>
-                <ul>
-                    <li><a href="Recurso1.html">Recurso 1</a></li>
-                    <li><a href="Recurso2.html">Recurso 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Aprendizaje</a>
-                <ul>
-                    <li><a href="Actividad1.html">Actividad 1</a></li>
-                    <li><a href="Actividad2.html">Actividad 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Acerca de</a>
-                <ul>
-                    <li><a href="Autor.html">Autor</a></li>
-                </ul>
-            </li>
-        </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
 
     <main>
@@ -54,11 +85,11 @@
                 <p>El atributo son distintos ingredientes o modificaciones que puedes hacer a la etiqueta. Como por
                     ejemplo colocarle un ID, especificar algún evento (como los casos de onsubmit y onclick), o
                     modificar el aspecto visual (como cambiarle el color a un texto).</p>
-                <img src="imagenes/atributos.png" alt="Atributos">
+                <center><img src="imagenes/atributos.png" alt="Atributos" width="560" height="255"></center>
                 <p>Referencia: Arkaitzgarro. CAPÍTULO 3 ETIQUETAS, ATRIBUTOS Y ELEMENTOS. Recuperado de
                     https://www.arkaitzgarro.com/xhtml/capitulo-3.html</p>
                 <br>
-                <img src="imagenes/Atributos2.png" alt="Atributos2">
+                <center><img src="imagenes/Atributos2.png" alt="Atributos2" width="560" height="315"></center>
                 <p>Referencia: Desarrolladoresweb. (2019). Atributos en HTML – qué son, para qué sirven y cuáles son.
                     Recuperado de https://desarrolladoresweb.org/html/atributos-html/</p>
                 <br>
@@ -72,10 +103,11 @@
 
                 <p>El valor es la especificación de estas modificaciones. ¿Qué debe suceder después del onsubmit? ¿Qué
                     color debe tener el texto? ¿Qué ID tendrá la etiqueta?</p>
-                <center><img src="imagenes/Valor.png" alt="Ejemplo de Valor" width="560" height="315"></center> 
+                <center><img src="imagenes/Valor.png" alt="Ejemplo de Valor" width="460" height="315"></center>
                 <p>Referencia: Developer Mozilla. (2020)CSS básico. Recuperado de
                     https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics</p>
-                <p>Juan Felipe. (2021). 44 etiquetas HTML que debes conocer. Recuperado de https://acortar.link/3iu4Kg</p>
+                <p>Juan Felipe. (2021). 44 etiquetas HTML que debes conocer. Recuperado de https://acortar.link/3iu4Kg
+                </p>
                 <br>
             </article>
 
@@ -98,15 +130,17 @@
                 </p>
                 <p>* width.- define el ancho y su valor puede ser cualquier medida con su respectiva unidad de medida.
                 </p>
-                <p>Referencia: Desarrolladoresweb. (2019). Atributos en HTML – qué son, para qué sirven y cuáles son. Recuperado de https://desarrolladoresweb.org/html/atributos-html/</p>
+                <p>Referencia: Desarrolladoresweb. (2019). Atributos en HTML – qué son, para qué sirven y cuáles son.
+                    Recuperado de https://desarrolladoresweb.org/html/atributos-html/</p>
             </article>
 
         </section>
 
         <aside>
             <h2>Para tener en cuenta</h2>
-            <img src="imagenes/ResumenAtributos.png" alt="Resumen Atributos" width="560" height="315">
-            <p>Referencia: Desarrolladoresweb. (2019). Atributos en HTML – qué son, para qué sirven y cuáles son. Recuperado de https://desarrolladoresweb.org/html/atributos-html/</p>
+            <center><img src="imagenes/ResumenAtributos.png" alt="Resumen Atributos" width="460" height="190"></center>
+            <p>Referencia: Desarrolladoresweb. (2019). Atributos en HTML – qué son, para qué sirven y cuáles son.
+                Recuperado de https://desarrolladoresweb.org/html/atributos-html/</p>
             <br>
             <br>
         </aside>

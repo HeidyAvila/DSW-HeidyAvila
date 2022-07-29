@@ -1,24 +1,24 @@
-body{
-    background-color:#ADCF9F;
+body {
+    background-color: #ADCF9F;
 }
 
-header{
-    background-color:  #418866;
+header {
+    background-color: #418866;
     color: rgb(71, 53, 30);
     text-align: center;
 }
 
-h1{
+h1 {
     color: rgb(4, 39, 27);
     text-align: center;
 }
 
-ul, ol{
+ul, ol {
     list-style: none;
     display: inline-block;
 }
 
-.Menu{
+.Menu {
     padding: 0px 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,11 +29,11 @@ ul, ol{
     align-items: flex-start;
 }
 
-.Menu>li{
+.Menu>li {
     float: left;
 }
 
-.Menu li a{
+.Menu li a {
     background-color: #658856;
     color: #0d1310;
     text-decoration: none;
@@ -41,11 +41,11 @@ ul, ol{
     display: block;
 }
 
-.Menu li a:hover{
+.Menu li a:hover {
     background-color: wheat;
 }
 
-.Menu li ul{
+.Menu li ul {
     display: none;
     margin-left: auto;
     margin-right: auto;
@@ -53,55 +53,74 @@ ul, ol{
     min-width: 140px;
 }
 
-.Menu li:hover > ul{
+.Menu li:hover>ul {
     display: block;
 }
 
-.Menu li ul li{
+.Menu li ul li {
     position: relative;
 }
 
-.Menu li ul li ul{
+.Menu li ul li ul {
     right: 140px;
 }
 
-h2{
+h2 {
     color: rgb(18, 53, 41);
     text-align: center;
 }
 
-h3{
+h3 {
     color: rgb(21, 71, 55);
+    margin: 5%; ;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-h4{
+h4 {
     color: rgb(21, 71, 55);
+    margin: 5%; ;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-p{
+p {
     color: black;
+    margin: 5%; ;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr
 }
 
-section{
+section {
     grid-column: 1/4;
 }
 
-aside{
+aside {
     grid-column: 4/5;
-    background-color: #93b486;
+    background-color: #7f94779f;
+    margin: 5%; ;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-footer{
-    background-color: #719663;
+footer {
+    background-color: #418866;
     color: rgb(71, 53, 30);
     text-align: center;
 }
 
-img{
+img {
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
 }
